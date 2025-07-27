@@ -471,9 +471,6 @@ cleanup:
     if (icon_entry.id.isname) {
         free(icon_entry.id.name);
     }
-    if (icon_entry.id.isname) {
-        free(icon_entry.id.name);
-    }
     fclose(ico);
     free(fname);
 }
