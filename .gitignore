@@ -1,0 +1,5 @@
+RESFMT
+win32_exe_ico_extract
+
+*.ico
+*.o
