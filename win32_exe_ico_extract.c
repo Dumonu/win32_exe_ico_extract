@@ -24,10 +24,8 @@
 #include <stdlib.h>
 #include <stdbit.h>
 #include <stdint.h>
-#include <stdarg.h>
 #include <endian.h>
 #include <string.h>
-#include <sys/stat.h>
 
 #define MAKE_MAGIC16(b0, b1) ((b1 << 8) | b0)
 #define MAKE_MAGIC32(b0, b1, b2, b3) ((b3 << 24) | (b2 << 16) | (b1 << 8) | b0)
